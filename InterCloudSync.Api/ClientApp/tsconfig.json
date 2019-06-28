@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./built/",
+    "sourceMap": true,
+    "strict": false,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "target": "es5"
+  },
+  "include": [
+    "./**/*",
+    "./node_modules/**/*"
+  ]
+}
