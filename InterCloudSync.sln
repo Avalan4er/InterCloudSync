@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29020.237
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterCloudSync.Api", "InterCloudSync.Api\InterCloudSync.Api.csproj", "{2814A6C3-35E6-4D1C-9222-1947AFB60E90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterCloudSync.Api", "InterCloudSync.Api\InterCloudSync.Api.csproj", "{2814A6C3-35E6-4D1C-9222-1947AFB60E90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterCloudSync.Business", "InterCloudSync.Business\InterCloudSync.Business.csproj", "{697F6DEA-609C-4405-BDEC-CEFD28417878}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterCloudSync.Cloud", "InterCloudSync.Cloud\InterCloudSync.Cloud.csproj", "{56754017-3896-4FF0-A613-D6158CCA7901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterCloudSync.GoogleDrive", "InterCloudSync.GoogleDrive\InterCloudSync.GoogleDrive.csproj", "{F6FE39CD-E102-4D81-A516-F45245B845E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{2814A6C3-35E6-4D1C-9222-1947AFB60E90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2814A6C3-35E6-4D1C-9222-1947AFB60E90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2814A6C3-35E6-4D1C-9222-1947AFB60E90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{697F6DEA-609C-4405-BDEC-CEFD28417878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697F6DEA-609C-4405-BDEC-CEFD28417878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697F6DEA-609C-4405-BDEC-CEFD28417878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697F6DEA-609C-4405-BDEC-CEFD28417878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56754017-3896-4FF0-A613-D6158CCA7901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56754017-3896-4FF0-A613-D6158CCA7901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56754017-3896-4FF0-A613-D6158CCA7901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56754017-3896-4FF0-A613-D6158CCA7901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6FE39CD-E102-4D81-A516-F45245B845E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FE39CD-E102-4D81-A516-F45245B845E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FE39CD-E102-4D81-A516-F45245B845E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FE39CD-E102-4D81-A516-F45245B845E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

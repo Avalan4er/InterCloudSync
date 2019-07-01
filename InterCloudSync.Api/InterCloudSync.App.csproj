@@ -4,14 +4,6 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <OutputPath>D:\Sandbox\NET.Core\InterCloudSync\Bin\Debug\</OutputPath>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>D:\Sandbox\NET.Core\InterCloudSync\Bin\Release\</OutputPath>
-  </PropertyGroup>
-
   <ItemGroup>
     <Compile Remove="ClientApp\built\**" />
     <Content Remove="ClientApp\built\**" />
@@ -530,7 +522,6 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="NLog" Version="4.6.5" />
   </ItemGroup>
 
   <ItemGroup>
@@ -3819,10 +3810,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\InterCloudSync.Business\InterCloudSync.Business.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <TypeScriptCompile Include="ClientApp\node_modules\%40vue\component-compiler-utils\dist\compileStyle.d.ts" />
     <TypeScriptCompile Include="ClientApp\node_modules\%40vue\component-compiler-utils\dist\compileTemplate.d.ts" />
     <TypeScriptCompile Include="ClientApp\node_modules\%40vue\component-compiler-utils\dist\index.d.ts" />
@@ -3985,6 +3972,10 @@
     <TypeScriptCompile Include="ClientApp\node_modules\webpack\declarations\plugins\WatchIgnorePlugin.d.ts" />
     <TypeScriptCompile Include="ClientApp\node_modules\webpack\declarations\WebpackOptions.d.ts" />
     <TypeScriptCompile Include="ClientApp\node_modules\worker-farm\index.d.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\v1\" />
   </ItemGroup>
 
 </Project>
